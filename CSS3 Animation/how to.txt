@@ -1,0 +1,24 @@
+Add the animation stylesheet to the <head> element of your webpage:
+
+<link rel="stylesheet" href="css/animations.css">
+
+
+
+Add an animation class to the element you want animated:
+
+<div id="object" class="slideUp">
+
+
+
+For entrance animations, you need to make them invisible by adding the visibility: hidden property to the animated element:
+
+#object{
+	background-color: #fe5652;
+
+	visibility: hidden;
+}
+
+
+
+
+
